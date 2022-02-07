@@ -19,7 +19,7 @@ namespace Task_13._6._1
         static string FileSelection()
         {
             ColourPrintBlue("\nУкажите полный путь до тестируемого текстового файла:");
-            //string file_path = Console.ReadLine();
+            ///string file_path = Console.ReadLine();
             string file_path = @"C:\Users\Professional\Desktop\Text1.txt";
 
             if (File.Exists(file_path))
